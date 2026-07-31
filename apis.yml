@@ -1,9 +1,32 @@
 aid: nference
 name: nference
-description: 'nference is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  nference is a healthcare-AI company that builds an agentic intelligence layer
+  for clinical research and drug development. Its nSights platform aggregates and
+  analyzes de-identified multimodal patient data at massive scale — 1.4 billion+
+  clinical notes, 10 billion+ radiology images, 20 million+ digitized pathology
+  whole-slide images, 12 million+ ECG waveforms, and 100 million+ echocardiogram
+  videos — extracting 30,000+ clinical biomarkers to help life-sciences and
+  health-system partners design patient cohorts, explore patient journeys, annotate
+  data for model development, and run advanced data-science workflows across
+  cardiology, oncology, immunology, rare diseases, neurology, infectious diseases,
+  and nephrology. nference spun out the venture companies Anumana (ECG-based
+  biomarker discovery) and Pramana (digital pathology). The company operates as an
+  enterprise B2B platform with no public self-serve API; it is profiled here for
+  its security, compliance, and governance posture. Backed by Matrix Partners.
 url: https://raw.githubusercontent.com/api-evangelist/nference/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://nference.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthtech
+- Artificial Intelligence
+- Clinical Research
+- Life Sciences
+- Medical Imaging
+- Data Science
+- Biomarkers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://nference.com
+- type: Blog
+  url: https://nference.com/blog
+- type: About
+  url: https://nference.com/about-us
+- type: PrivacyPolicy
+  url: https://nference.com/privacy-policy
+- type: TermsOfService
+  url: https://nference.com/terms-of-use
+- type: TrustCenter
+  url: security/nference-trust-center.yml
+- type: Compliance
+  url: https://nference.com/trust
+- type: VulnerabilityDisclosure
+  url: security/nference-vulnerability-disclosure.yml
+- type: Security
+  url: https://nference.com/responsible-disclosure
+- type: DomainSecurity
+  url: security/nference-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://nference.com/trust
+url: https://nference.com/trust
+certifications:
+- ISO/IEC 27001:2022
+- HIPAA
+program:
+  practices:
+  - Encryption of data at rest and in transit
+  - Access controls limiting authorization to appropriate personnel
+  - Continuous monitoring with active threat detection and response
+  - Regular security audits to maintain certifications
+  security_contact: security@nference.com
+evidence:
+- source: https://nference.com/trust
+  keywords:
+  - iso/iec 27001
+  - hipaa
+  - encryption
+  - continuous monitoring
